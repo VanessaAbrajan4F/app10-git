@@ -1,0 +1,515 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/theme-app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScrip-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"</script> -->
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+ <body onLoad="MM_preloadImages('imagenes/Elementos en bloque2.jpg','imagenes/elementos de formulario2.jpg','imagenes/php2.jpg','imagenes/seprando de html2.jpg','imagenes/Photoshop (imágenes, SVG creación y utilización, Iconos)2.png','imagenes/mysql2.png','imagenes/Variables2.jpg')">
+ <div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>HTML5</h1>
+ </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>HTML5</h1>
+     <div>
+      <img src="imagenes/html5.png" width="30%" height="30%">
+     </div>
+    </div>
+   </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Web y Funcionamiento de Internet</h1>
+     <div>
+      <img src="imagenes/Web y Funcionamiento de Internet.jpg" width="30%" height="30%">
+     </div>
+    </div>
+   </div>
+<div>
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>elementos de formulario</h1>
+     <div>
+     <br>
+     <img src="imagenes/elementos de formulario2.jpg" width="30%" height="30%"> 
+      </div>
+   </div>
+     
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class ="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>DATOS DEL DESARROLADOR</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>HTML5</h2>
+      <p>Elementos en bloque
+      1er parcial</p>
+     </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Elementos de Formulario</h2>
+      <p>1ER parcial html5</p>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>CSS</h2>
+      <p>Reglas de Estilo
+      1er Parcial css</p>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Contenido 2do Parcial</h2>
+     <p>WAMP</p> 
+    </a>
+   </li>
+    <li class ="ui-first-child ui-last-child">
+     <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>JS</h2>
+      <p>2do Parcial</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>PHP</h2>
+      <p>2do Parcial</p>
+     </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Contenido 3er Parcial</h2>
+      <p>Separando de HTML</p>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>MySQL</h2>
+      <p>Diseño y Creación de Base de Datos</p>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Editor de contenido</h2>
+     <p>Photoshop (imágenes, SVG creación y utilización, Iconos)</p> 
+    </a>
+   </li>
+  </ul>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Variables</h2>
+   </a>
+  </li>
+   <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Funciones</h2>
+   </a>
+  </li>
+   <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina13" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Elementos Semánticos</h2>
+   </a>
+  </li>
+   <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina14" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Dreamweaver CS6</h2>
+   </a>
+  </li>
+  <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina15" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Conexión con PHP</h2>
+   </a>
+  </li>
+ </ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+  <img src="res/android/mdpi.png" width="45" height="45">
+ </div>
+  <div>
+    <h4>Proyecto Final</h4>
+    <h4>Tutorial Proyecto Final VAM<h4>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id ="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Datos del desarrolador</h1>
+ </div>
+ <div data-role="content" align="center">
+  <div>
+   <p>Vanessa Abrajan Morales </p>
+   <p>Diseña Aplicaciones Web (DAW)</p>
+   <p>4 F Programcion</p>
+   <p>Profesor: Jose antonio Gomez Hermandez</p>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/conexionphpmysql.jpg" alt="conexion-php-mysql" title="conexion-php-mysql" id="wows1_0"/></li>
+		<li><img src="data1/images/disea_aplicaciones_web_daw.jpg" alt="Diseña Aplicaciones Web (DAW)" title="Diseña Aplicaciones Web (DAW)" id="wows1_1"/></li>
+		<li><img src="data1/images/dreamweaver.jpg" alt="dreamweaver" title="dreamweaver" id="wows1_2"/></li>
+		<li><img src="data1/images/elementos_de_formulario.png" alt="elementos de formulario" title="elementos de formulario" id="wows1_3"/></li>
+		<li><img src="data1/images/elementos_de_formulario2.jpg" alt="elementos de formulario2" title="elementos de formulario2" id="wows1_4"/></li>
+		<li><img src="data1/images/elementos_en_bloque.jpg" alt="Elementos en bloque" title="Elementos en bloque" id="wows1_5"/></li>
+		<li><img src="data1/images/elementos_en_bloque2.jpg" alt="Elementos en bloque2" title="Elementos en bloque2" id="wows1_6"/></li>
+		<li><img src="data1/images/elementos_semanticos.jpg" alt="elementos semanticos" title="elementos semanticos" id="wows1_7"/></li>
+		<li><img src="data1/images/funciones.jpg" alt="funciones" title="funciones" id="wows1_8"/></li>
+		<li><img src="data1/images/html5.png" alt="html5" title="html5" id="wows1_9"/></li>
+		<li><img src="data1/images/js.png" alt="js" title="js" id="wows1_10"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/mysql.png" alt="http://wowslider.net/" title="MysQL" id="wows1_11"/></a></li>
+		<li><img src="data1/images/mysql2.png" alt="mysql2" title="mysql2" id="wows1_12"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="conexion-php-mysql"><span><img src="data1/tooltips/conexionphpmysql.jpg" alt="conexion-php-mysql"/>1</span></a>
+		<a href="#" title="Diseña Aplicaciones Web (DAW)"><span><img src="data1/tooltips/disea_aplicaciones_web_daw.jpg" alt="Diseña Aplicaciones Web (DAW)"/>2</span></a>
+		<a href="#" title="dreamweaver"><span><img src="data1/tooltips/dreamweaver.jpg" alt="dreamweaver"/>3</span></a>
+		<a href="#" title="elementos de formulario"><span><img src="data1/tooltips/elementos_de_formulario.png" alt="elementos de formulario"/>4</span></a>
+		<a href="#" title="elementos de formulario2"><span><img src="data1/tooltips/elementos_de_formulario2.jpg" alt="elementos de formulario2"/>5</span></a>
+		<a href="#" title="Elementos en bloque"><span><img src="data1/tooltips/elementos_en_bloque.jpg" alt="Elementos en bloque"/>6</span></a>
+		<a href="#" title="Elementos en bloque2"><span><img src="data1/tooltips/elementos_en_bloque2.jpg" alt="Elementos en bloque2"/>7</span></a>
+		<a href="#" title="elementos semanticos"><span><img src="data1/tooltips/elementos_semanticos.jpg" alt="elementos semanticos"/>8</span></a>
+		<a href="#" title="funciones"><span><img src="data1/tooltips/funciones.jpg" alt="funciones"/>9</span></a>
+		<a href="#" title="html5"><span><img src="data1/tooltips/html5.png" alt="html5"/>10</span></a>
+		<a href="#" title="js"><span><img src="data1/tooltips/js.png" alt="js"/>11</span></a>
+		<a href="#" title="MysQL"><span><img src="data1/tooltips/mysql.png" alt="MysQL"/>12</span></a>
+		<a href="#" title="mysql2"><span><img src="data1/tooltips/mysql2.png" alt="mysql2"/>13</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="45" height="45">
+   </div>
+    <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>HTML5
+      <p>Elementos en bloque</p></h1>
+      
+	</div>
+ <div data-role="content" align="center">
+   <div><h2>Los elementos en HTML (lenguaje de marcas de hipertexto - Hypertext Markup Language) usualmente son elementos "en bloque" o elementos "en línea". Un elemento en bloque ocupa todo el espacio de su elemento padre (contenedor), creando así un "bloque". Este artículo ayuda a explicar lo que esto significa.
+Los navegadores suelen mostrar el elemento a nivel de bloque con un salto de línea antes y después del elemento.</h2>
+   </div>
+  </div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/Elementos en bloque2.jpg',1)"><img src="imagenes/Elementos en bloque.jpg" width="30%" height="30%" id="Image6"></a> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="45" height="45">
+   </div>
+    <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>elementos de formulario</h1>
+   </div>
+<div data-role="content" align="center">
+  <div>
+   <h2>Los elementos de formulario como botones y cuadros de texto también se denominan "campos de formulario" y "controles de formulario". La mayoría de controles se crean con la etiqueta, por lo que su definición formal y su lista de atributos es muy extensa
+ </h2>
+  </div>
+  <img src="imagenes/elementos de formulario2.jpg" width="30%" height="30%">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+     </div>
+ </div>
+</div>
+  
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>CSS
+   <p>Reglas de estilo</p></h1>
+   </div>
+<div data-role="content" align="center">
+  <div>
+   <h2>CSS funciona a base de reglas, es decir, declaraciones sobre el estilo de uno o más elementos. Las hojas de estilo están compuestas por una o más de esas reglas aplicadas a un documento HTML o XML. La regla tiene dos partes: un selector y la declaración. </h2>
+  </div>
+  <img src="imagenes/reglas de estilo css.jpg" width="30%" height="30%">
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+     </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>WampServer
+   <p>2do parcial</p></h1>
+   </div>
+   <div data-role="content" align="center">
+  <div>
+   <h2>WampServer se refiere a una pila de software para el sistema operativo Microsoft Windows , creada por Romain Bourdon y que consiste en el servidor web Apache , soporte OpenSSL para SSL, base de datos MySQL y lenguaje de programación PHP </h2>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+      <h1>WampServer</h1>
+     <div>
+     <br>
+     <img src="imagenes/wamp.jpg" width="30%" height="30%"> 
+      </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+     </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Js
+   <p>2do parcial</p></h1>
+   </div>
+   <div data-role="content" align="center">
+  <div>
+   <h2>Un archivo *.js, es un archivo de texto plano que contiene scripts de Javascript, y que puede, por tanto, ser modificado con cualquier editor de textos. Es ejecutado generalmente por un navegador web. </h2>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+      <h1>JS</h1>
+     <div>
+     <p> Los archivos .js guardan funciones y variables globales que se ejecutarán en la página web pudiendo llamar a sus funciones desde cualquier subpágina sin tener que incrustar scripts en cada una de ellas y ahorrando así código. Para quien tenga idea de construcción de páginas web, podría decirse que es similar a un archivo CSS pero en lugar de clases y estilos este archivo genera scripts.</p>
+     <br>
+     <img src="imagenes/js.png" height="30%"> 
+      </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+     </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>PHP
+   <p>2do parcial</p></h1>
+   </div>
+   <div data-role="content" align="center">
+  <div>
+   <h2>es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico.. </h2>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+      <h1>JS</h1>
+     <div>
+     <p> PHP ha evolucionado por lo que ahora incluye también una interfaz de línea de comandos que puede ser usada en aplicaciones gráficas independientes. Puede ser usado en la mayoría de los servidores web al igual que en muchos sistemas operativos y plataformas sin ningún costo.</p>
+     <br>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/php2.jpg',1)"><img src="imagenes/PHP.png" width="30%" height="30%" id="Image18"></a> </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+     </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Contenido 3er parcial 
+   <p>separando de HTML</p></h1>
+   </div>
+   <div data-role="content" align="center">
+  <div>
+   <h2>Para definir y separar bloques de texto se emplean una serie de marcas que definen párrafos, texto preformateado o bloques con significado especial como direcciones o citas. 
+Marcas de bloques..</h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/seprando de html2.jpg',1)"><img src="imagenes/separando de html.jpg" width="30%" height="30%" id="Image19"></a> 
+</div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+     </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>MySql 
+   <p>Diseño y creacion de base de datos</p></h1>
+   </div>
+   <div data-role="content" align="center">
+ <h2> Una base de datos correctamente diseñada le permite obtener acceso a información actualizada y precisa. Como es esencial tener un diseño correcto para lograr sus objetivos de trabajar con una base de datos, tiene sentido invertir el tiempo necesario para obtener información sobre los principios de un buen diseño. Al final, es mucho más probable que acabe con una base de datos que se ajusta a sus necesidades y que puede adaptarse fácilmente al cambio.</h2>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/mysql2.png',1)"><img src="imagenes/MysQL.png" width="30%" height="30%" id="Image24"></a>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+ </div>
+</div>
+ 
+ <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Editor de contenido 
+   <p>Photoshop (imágenes, SVG creación y utilización, Iconos)</p></h1>
+   </div>
+   <div data-role="content" align="center">
+  
+   <h2> es un editor de gráficos rasterizados desarrollado por Adobe Systems Incorporated. Usado principalmente para el retoque de fotografías y gráficos, su nombre en español significa literalmente "taller de fotos". Es líder mundial del mercado de las aplicaciones de edición de imágenes y domina este sector de tal manera que su nombre es ampliamente empleado como sinónimo para la edición de imágenes en general.</h2>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/Photoshop (imágenes, SVG creación y utilización, Iconos)2.png',1)"><img src="imagenes/Photoshop (imágenes, SVG creación y utilización, Iconos)1.png" width="30%" height="30%" id="Image22"></a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Variables</h1>
+   </div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/Variables2.jpg',1)"><img src="imagenes/Variables1.jpg" width="30%" height="30%" id="Image25"></a> 
+<div data-role="content" align="center">
+ <h2> Las variables en los lenguajes de programación se asemejan a las variables utilizadas en matemáticas, se utilizan para almacenar y hacer referencia a valores, gracias a ellas podemos darle vida a la web.
+Para declarar/definir una variable utilizaremos la palabra clave var seguida del nombre de la variable y un punto y coma (;).</h2>
+<a href="https://libro.cursohtml5desdecero.com/js_primeros_pasos/variables.html"target="_self"/>Para mas informacion dar clic</a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+ </div>
+</div>
+
+
+<div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Funciones</h1>
+   </div>
+   <div data-role="content" align="center">
+ <h2>También puede añadir las siguientes funciones a una creatividad desplegable en HTML5: Configurar el despliegue y la contracción con un clic. Configurar el despliegue y la contracción al desplazar el ratón por encima. Ejecutar otras funciones para desplegar o contraer.</h2>
+ <a href="https://support.office.com/es-es/article/conceptos-b%C3%A1sicos-del-dise%C3%B1o-de-una-base-de-datos-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5"target="_self"/>Para mas informacion dar clic</a>
+ <img src="imagenes/funciones.jpg" width="30%" height="30%">
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina13" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Elemtos semanticos</h1>
+   </div>
+   <div data-role="content" align="center">
+    <img src="imagenes/elementos semanticos.jpg" width="30%" height="30%">
+    <h2>la semántica HTML es HTML que usa el elemento o etiqueta correcto para el trabajo. Tomemos el elemento h1 como un ejemplo. ¿Para qué es? La semántica responde es “para el título de nivel superior de la página”. Usando un elemento h1 solo para hacer el texto más grande es el ejemplo clásico de HTML no semántico. Además para las etiquetas de encabezados (de h1 hasta h6) hay muchos elementos de HTML desde el elemento común p a los elementos raramente encontrados cite y dfn. Cada uno tiene un significado específico, y cada uno puede ser usado para darle a tu HTML una mejor estructura de estilo con CSS y manipularlo con JavaScript.</h2>
+    <a href="http://activ.com.mx/uso-de-elementos-semanticos-en-html5/"target="_self"/>Para mas informacion dar clic</a>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina14" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>dreamweaver cs6</h1>
+   </div>
+   <div data-role="content" align="center">
+   <h2>Adobe Dreamweaver es una herramienta de desarrollo web patentada de Adobe Systems . Fue creado por Macromedia en 1997 [1] y desarrollado por ellos hasta que Adobe Systems adquirió Macromedia en 2005.Adobe Dreamweaver está disponible para macOS y para Windows .</h2>
+   <a href=" https://en.wikipedia.org/wiki/Adobe_Dreamweaver"target="_self"/>Para mas informacion dar clic</a>
+   <img src="imagenes/dreamweaver.jpg" width="30%" height="30%">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina15" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Conexion con PHP</h1>
+   </div>
+   <div data-role="content" align="center">
+   <h2>Este simple ejemplo muestra como conectar, ejecutar una consulta, imprimir las filas resultantes y desconectar a una base de datos MySQL.</h2>
+   <a href="http://php.net/manual/es/mysql.examples-basic.php"target="_self"/>Para mas informacion dar clic</a>
+   <img src="imagenes/conexion-php-mysql.gif" width="30%" height="30%">
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="45" height="45">
+  </div>
+     <h4>Proyecto final vanessa abrajan morales</h4>
+ </div>
+ </div>
+</div>
+
+</div>
+</body>
+</html>
+
+   
